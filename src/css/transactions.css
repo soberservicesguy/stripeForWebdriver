@@ -1,0 +1,15 @@
+@media (max-width: 575.98px) {
+  .date-filter {
+    flex-direction: column;
+  }
+  .date-filter div {
+    margin-bottom: 5px;
+  }
+  .btn-download {
+    justify-content: center !important;
+    margin-bottom: 15px;
+  }
+  .btn-download button {
+    margin-right: unset !important;
+  }
+}

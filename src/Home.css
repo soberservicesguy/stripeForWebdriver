@@ -1,0 +1,576 @@
+#homeContainer {
+    margin: 0;
+    /* margin-top: 105px; */
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.navbar {
+    padding: 20px 80px !important;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100vw;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    letter-spacing: 1px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.navbar-auth .nav-item a.nav-link {
+    color: #25AE9C;
+}
+
+.navbar-auth .nav-item a.nav-link button{
+    border-color: #25AE9C;
+    color: #25AE9C;
+}
+
+button.btn {
+    border-radius: 20px;
+    padding: .375rem 2rem;
+}
+
+.navbar-auth .nav-item a.nav-link button:hover,
+.navbar-auth .nav-item a.nav-link button:active,
+.navbar-auth .nav-item a.nav-link button:focus {
+    background-color: #25AE9C;
+    border-color: #25AE9C;
+    color: #fff;
+}
+
+.white-text {
+    color: #ffffff !important;
+}
+
+/* Home START */
+#home {
+    background: url(assets/images/hero_image2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    padding: 150px 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home .row {
+    justify-content: center;
+    align-items: center;
+}
+
+#home p {
+    padding: 10px;
+}
+
+#home img.play-image {
+    margin: 10px 0 30px;
+}
+
+#home img.pos-image {
+    padding: 30px;
+}
+
+#home .btn-outline-secondary {
+    background-color: transparent;
+    background-image: none;
+    border-color: #fff;
+    color: #fff;
+}
+
+#home .btn-outline-secondary:hover,
+#home .btn-outline-secondary:focus,
+#home .btn-outline-secondary:active {
+    background-color: #25AE9C;
+    border-color: #25AE9C;
+}
+/* Home END */
+
+/* Features START */
+#features {
+    background: #FAFAFA;
+    color: #616161;
+    padding-top: 80px;
+    position: relative;
+}
+
+#features .features-gradient-background {
+    background: linear-gradient(-177deg, #04A2AC 0%, #25AE9C 80%, #FAFAFA 10%);
+    height: 818px;
+    width: 100%;
+    top: 540px;
+    left: 0;
+    position: absolute;
+}
+
+#features .row.features-card-container {
+    padding: 20px 140px;
+}
+
+#features .card .card-img {
+    padding: 50px 120px;
+}
+
+#features .card .card-body {
+    padding: 2.25rem;
+}
+
+#features .card .card-body .card-title,
+#features h1 {
+    color: #616161;
+}
+
+#features .card .card-body .card-text,
+#features p {
+    color: #707070;
+}
+
+#features .stripe-tablet-header-container {
+    padding: 50px 0;
+}
+
+#features .stripe-tablet-container {
+    justify-content: center;
+    align-items: center;
+}
+
+#features .tablet-header-container {
+    padding: 140px 0 40px;
+}
+/* Features END */
+
+/* Hardware Start */
+#hardware {
+    background: #FAFAFA;
+    position: relative;
+}
+
+#hardware .hardware-header-container {
+    padding: 80px 0 50px;
+}
+
+#hardware .hardware-gradient-background {
+    background: linear-gradient(-195deg, #04A2AC 0%, #25AE9C 74%, #FAFAFA 26%);
+    height: 1306px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+/* Hardware End */
+
+/* Pricing Start */
+#pricing {
+    background: #FAFAFA;
+}
+
+#pricing .pricing-header-container {
+    padding: 30px 0 20px;
+}
+
+#pricing .pricing-card-container {
+    color: #616161;
+    padding: 80px 70px 50px;
+}
+
+#pricing .pricing-basic h1 {
+    color: #25AE9C;
+    line-height: 50px;
+}
+
+#pricing .pricing-basic span {
+    color: #25AE9C;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+#pricing .pricing-expert h1 {
+    line-height: 50px;
+}
+
+#pricing .pricing-expert span {
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+#pricing .pricing-card-container button.learn-more-btn {
+    border-color: #25AE9C;
+    color: #25AE9C;
+}
+
+#pricing .pricing-card-container button.learn-more-btn:hover,
+#pricing .pricing-card-container button.learn-more-btn:active,
+#pricing .pricing-card-container button.learn-more-btn:focus {
+    background-color: #25AE9C !important;
+    border-color: #25AE9C;
+    color: #fff;
+}
+/* Pricing End */
+
+/* Clients Start */
+#clients {
+    background: #FAFAFA;
+    position: relative;
+    padding: 80px 0;
+}
+
+#clients .clients-header-container {
+    margin-bottom: 20px;
+}
+
+#clients .clients-header-container h1 {
+    font-family: 'Open Sans', "Roboto", sans-serif;
+    font-weight: bold;
+    color: #616161;
+}
+
+#clients .clients-header-container p {
+    font-family: 'Open Sans', "Roboto", sans-serif;
+    font-weight: bold;
+    color: #707070;
+}
+
+#clients p.comment-message.card-text {
+    font-family: 'Open Sans', "Roboto", sans-serif;
+    font-weight: bold;
+    color: #707070;
+}
+
+#clients .user-avatar {
+    border-radius: 50px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#clients .apostrophe {
+    margin: auto;
+}
+
+#clients .card {
+    margin: 10px 30px;
+}
+
+#clients .slick-slide {
+    filter: blur(5px);
+}
+
+#clients .slick-active.slick-center.slick-current {
+    filter: blur();
+}
+
+#clients .slick-prev {
+    left: 20px;
+    z-index: 1;
+}
+
+#clients .slick-next {
+    right: 20px;
+}
+
+#clients .slick-prev:before, .slick-next:before {
+    font-size: 40px;
+    color: #25ae9b;
+}
+
+#clients i.icon.ion-ios-circle-outline {
+    color: #25ae9b;
+}
+
+#clients .slick-dots li.slick-active span.fill {
+    background: #25ae9b;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    border-radius: 50px;
+}
+/* Clients End */
+
+/* CTA Start */
+.cta-bg {
+    background: url(assets/images/cta_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.cta-bg .row {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-bg h1 {
+    font-family: 'Open Sans', "Roboto", sans-serif;
+    font-weight: bold;
+    color: #616161;
+}
+
+.cta-bg button.btn.btn-outline-secondary {
+    padding: .375rem 4rem;
+    color: #fff;
+    margin-left: 20px;
+    background: #25ae9b;
+    border-color: #25ae9b;
+}
+
+.cta-bg button.btn.btn-outline-secondary:hover {
+    color: #25ae9b;
+    background: transparent;
+    border-color: #25ae9b;
+}
+/* CTA End */
+
+/* Contact Us Start */
+#contact-us {
+    background: linear-gradient(0deg, #04A2AC 0%, #25AE9C 100%);
+    padding: 80px 80px 50px;
+}
+#contact-us .logo-white-image {
+    margin-bottom: 30px;
+}
+#contact-us .col .title{
+    font-size: 24px;
+}
+#contact-us .col {
+    font-family: 'Open Sans', "Roboto", sans-serif;
+ 
+    padding: 50px;
+}
+#contact-us .summary{
+    font-family: 'Open Sans', "Roboto", sans-serif;
+
+    line-height: 25px;
+    padding: 0 40px;
+}
+#contact-us .address-details .details {
+    max-width: 270px;
+}
+#contact-us .number-details .details {
+    max-width: 190px;
+}
+
+.details > a {
+    color: #fff;
+}
+
+#contact-us .app-buttons {
+    margin: 0 30px;
+    font-family: 'Open Sans', "Roboto", sans-serif;
+    font-weight: bold;
+}
+#contact-us .app-buttons img {
+    margin: 0 30px;
+}
+/* Contact Us End */
+
+/* Media max width 1400px min width 1200px Start */
+@media (max-width: 1400px) and (min-width: 1200px){
+    #features .card .card-img {
+        padding: 30px 70px;
+    }
+    #features .row.features-card-container {
+        padding: 20px 30px;
+    }
+    #contact-us .summary{
+        padding: 0 20px;
+    }
+}
+/* Media max width 1400px min width 1200px End */
+
+/* Media max width 1200px min width 992px Start */
+@media (max-width: 1200px) and (min-width: 992px){
+    #features .card .card-img {
+        padding: 20px 50px;
+    }
+    #features .row.features-card-container {
+        padding: 20px 10px;
+    }
+    #features .card {
+        min-height: 440px;
+    }
+    #clients .card {
+        margin: 10px;
+    }
+    #contact-us .summary{
+        padding: 0;
+    }
+    #contact-us .app-buttons img {
+        margin: 0 10px;
+    }
+}
+/* Media max width 1200px min width 992px End */
+
+/* Media max width 992px min width 768px Start */
+@media (max-width: 992px) and (min-width: 768px) {
+    #features .card .card-img {
+        padding: 20px 40px;
+    }
+    #features .row.features-card-container {
+        padding: 20px 10px;
+    }
+    #pricing .pricing-card-container {
+        padding: 10px 10px 50px;
+    }
+    #features .card {
+        min-height: 430px;
+    }
+    #contact-us {
+        padding: 80px 30px 50px;
+    }
+}
+/* Media max width 992px min width 768px End */
+
+/* Media max width 767px and min width 576px Start */
+@media (max-width: 767px) and (min-width: 576px) {
+    #features .card .card-img {
+        padding: 20px 140px;
+    }
+    #features .row.features-card-container {
+        padding: 20px 50px;
+    }
+    #features .row.features-card-container .card,
+    #pricing .pricing-card-container .card {
+        margin: 20px;
+    }
+    #pricing .pricing-card-container {
+        padding: 10px 30px 50px;
+    }
+}
+/* Media max width 767px and min width 576px End */
+
+/* Media max width 767px and min width 656px Start */
+@media (max-width: 767px) and (min-width: 656px) {
+    #contact-us {
+        padding: 80px 30px 50px;
+    }
+    #contact-us .app-buttons img {
+        margin: 0 10px;
+    }
+}
+/* Media max width 767px and min width 656px End */
+
+/* Media max width 655px and min width 575px Start */
+@media (max-width: 655px) and (min-width: 575px) {
+    #contact-us {
+        padding: 80px 10px 50px;
+    }
+    #contact-us .app-buttons img {
+        margin: 0 10px;
+        width: 150px;
+    }
+}
+/* Media max width 655px and min width 575px End */
+
+/* Media max width 575px Start */
+@media (max-width: 575px) {
+    .navbar {
+        padding: 20px !important;
+    }
+    .navbar-brand img{
+        width: 150px;
+    }
+    #features .card .card-img {
+        padding: 20px 40px;
+    }
+    #features .row.features-card-container {
+        padding: 20px 10px;
+    }
+    #features .row.features-card-container .card,
+    #pricing .pricing-card-container .card {
+        margin: 20px;
+    }
+    #pricing .pricing-card-container {
+        padding: 20px 0px 50px;
+    }
+    #features .features-gradient-background {
+        top: 57%;
+        height: 940px;
+        background: linear-gradient(-175deg, #04A2AC 0%, #25AE9C 90%, #FAFAFA 10%);
+    }
+    #clients .card {
+        margin: 10px;
+    }
+    #contact-us {
+        padding: 70px 20px 20px;
+    }
+    #contact-us .col {
+        padding: 20px;
+    }
+    #contact-us .summary {
+        padding: 0 10px;
+    }
+    #contact-us .col .title {
+        font-size: 20px;
+    }
+    #contact-us .app-buttons {
+        margin: 0 60px;
+        display: inline-grid;
+        text-align: center;
+    }
+    #contact-us .app-buttons img {
+        margin: 10px 20px;
+    }
+
+    .stripe-tablet-header-container h1 {
+        font-size: 2em;
+    }
+
+    #features .features-gradient-background {
+        background: linear-gradient(-177deg, #04A2AC 0%, #25AE9C 80%, #FAFAFA 10%);
+    }
+}
+/* Media max width 575px End */
+
+
+/* GRADIENT RESPONSIVE CSS START */
+/* Media max width 767px and min width 710px Start */
+@media (max-width: 767px) and (min-width: 710px) {
+    #features .features-gradient-background {
+        top: 55%;
+        height: 900px;
+        background: linear-gradient(-175deg, #04A2AC 0%, #25AE9C 90%, #FAFAFA 10%);
+    }
+}
+/* Media max width 767px and min width 710px End */
+
+/* Media max width 709px and min width 650px Start */
+@media (max-width: 709px) and (min-width: 650px) {
+    #features .features-gradient-background {
+        top: 52%;
+        height: 900px;
+        background: linear-gradient(-175deg, #04A2AC 0%, #25AE9C 90%, #FAFAFA 10%);
+    }
+}
+/* Media max width 709px and min width 650px End */
+
+/* Media max width 649px and min width 576px Start */
+@media (max-width: 649px) and (min-width: 576px) {
+    #features .features-gradient-background {
+        top: 50%;
+        height: 900px;
+        background: linear-gradient(-175deg, #04A2AC 0%, #25AE9C 90%, #FAFAFA 10%);
+    }
+}
+/* Media max width 575px and min width 515px Start */
+@media (max-width: 575px) and (min-width: 515px) {
+    #features .features-gradient-background {
+        top: 60%;
+        height: 900px;
+        background: linear-gradient(-175deg, #04A2AC 0%, #25AE9C 90%, #FAFAFA 10%);
+    }
+}
+/* Media max width 575px and min width 515px End */
+/* GRADIENT RESPONSIVE CSS END */

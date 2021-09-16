@@ -1,0 +1,15 @@
+@media (max-width: 575.98px) {
+    .date-filter {
+      flex-direction: column;
+    }
+    .date-filter div {
+      margin-bottom: 5px;
+    }
+  }
+
+
+  .top-stats {
+    margin: 5px;
+
+    color: white
+}

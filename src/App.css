@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 80px;
+}
+
+.charts {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 250px;
+}
+
+.App-intro {
+  font-size: large;
+  color: black;
+}
+
+.handsontable th {
+  font-size: 15px;
+  font-weight: bold !important;
+  color: grey !important;
+  /* background: #a1d3af !important; */
+  background: white !important;
+  padding-top:  10px  !important;
+  align-items: center  !important;
+  justify-content: center  !important;
+}
+
+.handsontable td {
+  color: grey !important;
+  padding: 8px !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cont {
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4db6ac;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #a1d3af;
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom right, #7fcec9, #a1d3af);
+  display: "flex";
+  height: 80;
+  color: "white";
+
+}
+
+.stripecard {
+
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+.button {
+  background: red;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+}
+
+
+.daysContainer{
+  margin-bottom: 18px;
+}
+.daysContainer .dayCon{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: solid 1px #ccc;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.daysContainer .dayCon.active{
+  border-color: #9fd3b1;
+  color: #fff;
+  background: #9fd3b1;
+}
+.css-2b097c-container .css-a26ri3-Control{
+  width: 100%;
+}
+
+.SettingTimeStyle .css-zk88xw-singleValue{
+  color:gray;
+}
